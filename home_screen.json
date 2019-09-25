@@ -1,0 +1,69 @@
+{
+   "response":"ok",
+   "data":{
+      "userId":"6578213987",
+      "key":"value",
+      "stores":[
+         {
+            "StoreId":"7864263930",
+            "StoreName":"Tanishk's Store",
+            "StoreAddress":{
+               "latitude":"abc",
+               "longitude":"abc",
+               "line1":"abc",
+               "line2":"abc",
+               "locality":"abc",
+               "city":"abc",
+               "state":"abc",
+               "country":"abc",
+               "PIN":"abc"
+            },
+            "StoreCountryCode":"0091",
+            "StorePhoneDigits":"10",
+            "StorePhone":"8971258254",
+            "StoreCategory":"Utilities",
+            "StorefrontId":"1563491618"
+         },
+         {
+            "StoreId":"7864263931",
+            "StoreName":"Mahan's Store",
+            "StoreAddress":{
+               "latitude":"abc",
+               "longitude":"abc",
+               "line1":"abc",
+               "line2":"abc",
+               "locality":"abc",
+               "city":"abc",
+               "state":"abc",
+               "country":"abc",
+               "PIN":"abc"
+            },
+            "StoreCountryCode":"0091",
+            "StorePhoneDigits":"10",
+            "StorePhone":"99812586676",
+            "StoreCategory":"Services",
+            "StorefrontId":"1563491619"
+         },
+         {
+            "StoreId":"7864263932",
+            "StoreName":"Sanjana's Store",
+            "StoreAddress":{
+               "latitude":"abc",
+               "longitude":"abc",
+               "line1":"abc",
+               "line2":"abc",
+               "locality":"abc",
+               "city":"abc",
+               "state":"abc",
+               "country":"abc",
+               "PIN":"abc"
+            },
+            "StoreCountryCode":"0091",
+            "StorePhoneDigits":"10",
+            "StorePhone":"8277674965",
+            "StoreCategory":"Food & Drink",
+            "StorefrontId":"1563491620"
+         }
+      ]
+   }
+}
