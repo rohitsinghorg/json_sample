@@ -4,36 +4,36 @@
     "type": "AppBar",
     "title": {
       "type": "Text",
-      "data": "Dynamic AppBar"
+      "data": "Hey, Dynamic"
     }
   },
   "body": {
-    "type": "Column",
-    "children": [
-      {
-        "type": "Text",
-        "data": "Hello, Flutter!",
-        "style": {
-          "fontSize": 24,
-          "color": "0xFF000000"
-        }
-      },
-      {
-        "type": "Padding",
-        "padding": 16,
-        "child": {
+    "type": "Center",
+    "child": {
+      "type": "Column",
+      "mainAxisAlignment": 1,  // MainAxisAlignment.center (enum index 1)
+      "children": [
+        {
           "type": "Text",
-          "data": "This is dynamically loaded from JSON."
-        }
-      },
-      {
-        "type": "Container",
-        "color": "0xFFFF00FF",
-        "child": {
+          "data": "You have pushed the button this many times:"
+        },
+        {
           "type": "Text",
-          "data": "Inside a random colored container!"
+          "data": "\$_counter",  // Placeholder for the counter value
+          "style": {
+            "fontSize": 24
+          }
         }
-      }
-    ]
+      ]
+    }
+  },
+  "floatingActionButton": {
+    "type": "FloatingActionButton",
+    "tooltip": "Increment",
+    "onPressed": "_incrementCounter",
+    "child": {
+      "type": "Icon",
+      "icon": "Icons.add"
+    }
   }
 }
