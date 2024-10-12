@@ -1,1 +1,39 @@
-0
+{
+  "type": "Scaffold",
+  "appBar": {
+    "type": "AppBar",
+    "title": {
+      "type": "Text",
+      "data": "Dynamic AppBar"
+    }
+  },
+  "body": {
+    "type": "Column",
+    "children": [
+      {
+        "type": "Text",
+        "data": "Hello, Flutter!",
+        "style": {
+          "fontSize": 24,
+          "color": "0xFF000000"
+        }
+      },
+      {
+        "type": "Padding",
+        "padding": 16,
+        "child": {
+          "type": "Text",
+          "data": "This is dynamically loaded from JSON."
+        }
+      },
+      {
+        "type": "Container",
+        "color": "0xFF00FF00",
+        "child": {
+          "type": "Text",
+          "data": "Inside a green container!"
+        }
+      }
+    ]
+  }
+}
