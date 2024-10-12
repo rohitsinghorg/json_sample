@@ -11,7 +11,7 @@
     "type": "Center",
     "child": {
       "type": "Column",
-      "mainAxisAlignment": 1,  // MainAxisAlignment.center (enum index 1)
+      "mainAxisAlignment": "MainAxisAlignment.center",  // MainAxisAlignment.center (enum index 1)
       "children": [
         {
           "type": "Text",
