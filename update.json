@@ -28,10 +28,10 @@
       },
       {
         "type": "Container",
-        "color": "0xFF00FF00",
+        "color": "0xFF0000FF",
         "child": {
           "type": "Text",
-          "data": "Inside a green container!"
+          "data": "Inside a blue container!"
         }
       }
     ]
